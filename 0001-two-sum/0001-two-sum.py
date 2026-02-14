@@ -5,4 +5,4 @@ class Solution:
             need = target - nums[i]
             if need in mymap:
                 return [mymap[need], i]
-            mymap[nums[i]] = mymap.get(nums[i],i)
+            mymap[nums[i]] = i
